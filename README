@@ -1,0 +1,3 @@
+코드 검사 도구
+파일 중복 검사 - php phpcpd.phar ./
+프로젝트 규모 검사 - php phploc.phar ./

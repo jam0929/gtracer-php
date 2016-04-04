@@ -1,0 +1,126 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu);*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html {
+	font-family: /*'Ubuntu',*/"Nanum Gothic", sans-serif;
+}
+body {
+	padding-top: 67px;
+}
+
+h1,.h1 {
+  font-size: 2em;
+}
+h2,.h2 {
+  font-size: 1.95em;
+}
+h3,.h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h4,.h4 {
+  font-size: 1.1em;
+}
+h5,.h5 {
+  font-size: 0.85em;
+}
+h6,.h6 {
+  font-size: 0.75em;
+}
+
+hr.line-separator {
+	border: 0px;
+	padding: 100px 0px;
+}
+
+div.start {
+	padding-top: 145px;
+}
+div.main-items {
+	padding-bottom: 60px;
+}
+
+div.main-items .btn {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+div.main-items .btn.btn-large {
+	  padding: 7px 18px;
+}
+
+div.about {
+	padding-top: 100px;
+}
+div.about > h2 {
+	padding-bottom: 15px;
+}
+div.about > p {
+	padding-bottom: 60px;
+}
+div.about img {
+	padding-bottom: 30px;
+}
+div.about-items {
+	padding-bottom: 60px;
+}
+div.about .btn {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+div.about .btn.btn-large {
+	padding: 10px 50px;
+	letter-spacing: 0px;
+	font-size: 18px;
+}
+
+
+div.contact {
+	padding-top: 100px;
+}
+div.contact input, div.contact textarea {
+	border: 1px solid #393939;
+	font-size: 14px;
+	margin-bottom: 7px;
+	padding: 2px 6px;
+	border-radius: 0px;
+}
+
+footer {
+	margin-top: 140px;
+}
+footer > .container > img {
+	padding-bottom: 35px;
+}
+footer > .container > p {
+	color: white;
+}
+footer > .container > p.phone {
+	letter-spacing: 0px;
+}
+footer > .container > p.copyright {
+	padding-top: 35px;
+	color: #9ea0a5;
+	font-size: 12px;
+	letter-spacing: 0px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body {
+		padding-top: 87px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}

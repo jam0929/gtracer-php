@@ -1,0 +1,6 @@
+a.indent-1 > span {
+	margin-left: 10px;
+}
+a.indent-2 > span {
+	margin-left: 20px;
+}
